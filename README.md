@@ -1,5 +1,5 @@
 # Mad-Chatter
-![Mad-Chatter](https://github.com/joelwebb/Mad-Chatter/mad_hatter.PNG)
+![Mad-Chatter](https://github.com/joelwebb/Mad-Chatter/blob/main/mad_hatter.PNG)
 Chatbot Flask App and Model Evaluation 
 
 # Description
