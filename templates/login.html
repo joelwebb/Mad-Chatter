@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<!--	Copywrite Joe Webb 2021. All rights reserved.-->
+<html>
+	<head>
+		<title>Mad Hatter</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<script src="/static/js/jquery.min.js"></script>
+		<script src="/static/js/skel.min.js"></script>
+		<script src="/static/js/skel-layers.min.js"></script>
+		<script src="/static/js/init.js"></script>
+		<link rel="icon" type="image/png" href="static/images/icon.png" sizes="32x32" />
+		<noscript>
+			<link rel="stylesheet" href="static/css/skel.css" />
+			<link rel="stylesheet" href="static/css/style.css" />
+			<link rel="stylesheet" href="static/css/style-xlarge.css" />
+		</noscript>
+	</head>
+	<body id="top">
+
+		<!-- Header -->
+			<header id="header" class="skel-layers-fixed">
+				<h1><a href="#">Mad Hatter</a></h1>
+				<nav id="nav">
+					<ul>
+					</ul>
+				</nav>
+			</header>
+
+		
+			<DIV align="center"  margin= "auto" position="relative"; class="inner">
+				<!-- Intro -->
+                                <form method="post" action="/login">
+										
+										<!-- Break -->
+										<h2>Mad Hatter Login </h2>
+										<div class="6u$ 12u$(xsmall)">
+											<input type="username1" name="username1" id="username1" value="" placeholder="Username" />
+										</div>
+										<br>
+										<div class="6u$ 12u$(xsmall)">
+											<input type="username2" name="username2" id="username2" value="" placeholder="Password" password/>
+										</div>
+										<br>
+										{% with messages = get_flashed_messages() %}
+										  {% if messages %}
+										    <ul class=flashes>
+										    {% for message in messages %}
+										      <li>{{ message }}</li>
+										    {% endfor %}
+										    </ul>
+										  {% endif %}
+										{% endwith %}
+										<br>
+										<!-- Button for actually submitting the form  -->
+										<ul class="actions">
+												<li><button class="button" type="Login" value="Log In" />Log In</li>
+												<br>
+												<br>
+									</form>
+									<br>
+									<a href="{{ url_for( 'forgot_password') }}">Forgot Your Password?</a>
+									</div>
+								</section>
+							</div>
+				</DIV>
+		<!-- Footer -->
+			<footer id="footer">
+								
+				</div>
+					<ul class="copyright">
+						<li>&copy; Joe Webb 2021. All rights reserved.</li>
+					</ul>
+				</div>
+			</footer>
+
+	</body>
+</html>
