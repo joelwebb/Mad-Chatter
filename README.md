@@ -1,5 +1,5 @@
 # Mad-Chatter
-![mad_hatter.PNG]
+[mad_hatter.PNG]
 Chatbot Flask App and Model Evaluation 
 
 # Description
