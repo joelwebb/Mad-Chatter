@@ -1,5 +1,6 @@
 # Mad-Chatter
-Chatbot Flask App &amp; Model Evaluation 
+![mad_hatter.PNG]
+Chatbot Flask App and Model Evaluation 
 
 # Description
 This github repository is a home for all things chatbot related.
